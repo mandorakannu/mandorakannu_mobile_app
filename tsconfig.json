@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"],
+      "assets": ["src/assets/*"],
+      "ui/*": ["src/components/ui/*"],
+      "shared_ui/*": ["src/components/shared/*"]
+    }
+  }
+}
