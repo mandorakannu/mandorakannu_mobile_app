@@ -10,6 +10,7 @@ import {
 import logo from "assets/images/logo.png";
 import { colors } from "assets/styles/colors";
 import { useState } from "react";
+import SocialApp from "ui/Social-App";
 const Header = () => {
   const [showHamburger, setShowHamburger] = useState(false);
   const headerLists = [
@@ -66,6 +67,7 @@ const Header = () => {
               {name}
             </Text>
           ))}
+        <SocialApp />
         </View>
       </View>
     </SafeAreaView>
