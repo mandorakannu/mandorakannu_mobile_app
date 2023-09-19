@@ -48,7 +48,7 @@ export default function About() {
         you have a good opportunity that matches my skills and experience then
         don't hesitate to contact me.
       </Text>
-      <Text style={styles.headingText}>About Me</Text>
+      <Text style={styles.headingText}>My Skills</Text>
       <View style={styles.skillsView}>
         {skills.map((skill, index) => (
           <Text key={index} style={styles.skills}>
