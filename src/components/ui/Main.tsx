@@ -17,9 +17,13 @@ export default function Main() {
 
 const styles = StyleSheet.create({
   container: {
+    marginVertical: 50,
+    paddingVertical: 50,
+    // borderColor: colors.zinc600,
+    // borderWidth: 1,
     justifyContent: "center",
     alignItems: "center",
-    height: "100%",
+    height: "auto",
     gap: 20,
   },
   headingText: {

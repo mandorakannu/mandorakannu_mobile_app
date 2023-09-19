@@ -7,4 +7,5 @@ export const colors = {
   blue600: "#2563eb",
   gray300: "#d1d5db",
   zinc600: "#52525b",
+  slate100: "#f1f5f9"
 };
