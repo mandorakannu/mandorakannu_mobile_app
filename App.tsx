@@ -9,7 +9,7 @@ import Footer from "ui/Footer";
 const App = () => {
   return (
     <>
-      <SafeAreaView>
+      <SafeAreaView style={{zIndex: 50}}>
         <Header />
         <ScrollView>
           <Main />

@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     padding: 14,
+    zIndex: 100,
   },
   headingText: {
     fontSize: 20,
@@ -118,12 +119,11 @@ const styles = StyleSheet.create({
   hamburgerLists: {
     display: "none",
     position: "absolute",
-    top: 60,
+    top: 59,
     right: 0,
     backgroundColor: colors.white,
     paddingHorizontal: 20,
     paddingVertical: 10,
-    zIndex: 1,
     width: 300,
     height: "auto",
     justifyContent: "space-between",
