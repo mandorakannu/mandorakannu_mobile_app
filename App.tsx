@@ -4,6 +4,7 @@ import React from "react";
 import Header from "shared_ui/Header";
 import { SafeAreaView, ScrollView } from "react-native";
 import Projects from "ui/Projects";
+import Contact from "ui/Contact";
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
           <Main />
           <About />
           <Projects />
+          <Contact />
         </ScrollView>
       </SafeAreaView>
     </>
